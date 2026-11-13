@@ -1,0 +1,10 @@
+{
+  "updated": "2026-11-13",
+  "tip": "Turn on multi-factor authentication everywhere. A stolen password alone should never be enough.",
+  "kev": [],
+  "critical_cves": [],
+  "sources": {
+    "kev": "CISA Known Exploited Vulnerabilities Catalog",
+    "nvd": "NIST National Vulnerability Database"
+  }
+}

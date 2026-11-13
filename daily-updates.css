@@ -1,0 +1,52 @@
+/* Daily updates section: theme-neutral so it blends with your existing styles.css */
+.daily-section { padding-top: 3rem; padding-bottom: 3rem; }
+.daily-tip {
+  border: 1px solid rgba(127,127,127,.3);
+  background: rgba(127,127,127,.08);
+  border-left: 4px solid var(--accent, #22d3ee);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+.daily-group { margin-top: 2rem; }
+.daily-group h3 { margin: 0 0 1rem; font-size: 1.15rem; }
+.daily-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+.daily-card {
+  border: 1px solid rgba(127,127,127,.3);
+  background: rgba(127,127,127,.06);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  transition: transform .2s, border-color .2s;
+}
+.daily-card:hover { transform: translateY(-3px); border-color: var(--accent, #22d3ee); }
+.daily-card h4 { margin: 0; font-size: 1rem; }
+.daily-card p { margin: 0; font-size: .92rem; line-height: 1.5; opacity: .9; }
+.daily-card .daily-name { font-weight: 600; opacity: 1; }
+.daily-card small { opacity: .65; margin-top: auto; }
+.daily-card-top { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.daily-cve {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 700;
+  color: var(--accent, #22d3ee);
+  text-decoration: none;
+}
+.daily-cve:hover { text-decoration: underline; }
+.daily-badge {
+  font-size: .7rem;
+  padding: .15rem .55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(127,127,127,.4);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.daily-badge-hot { border-color: #ef4444; color: #ef4444; }
+.daily-empty, .daily-foot { opacity: .7; font-size: .9rem; }
+.daily-foot { margin-top: 1.5rem; }
