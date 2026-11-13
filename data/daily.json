@@ -1,8 +1,100 @@
 {
   "updated": "2026-11-13",
-  "tip": "Turn on multi-factor authentication everywhere. A stolen password alone should never be enough.",
-  "kev": [],
-  "critical_cves": [],
+  "tip": "Read the CVSS vector, not just the score. It explains how an attack works.",
+  "kev": [
+    {
+      "cve": "CVE-2026-20320",
+      "vendor": "Cisco",
+      "product": "BroadWorks",
+      "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "added": "2026-11-10",
+      "due": "2026-11-24",
+      "ransomware": "Unknown",
+      "summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system."
+    },
+    {
+      "cve": "CVE-2026-125350",
+      "vendor": "Google",
+      "product": "Chromium",
+      "name": "Google Chromium Use-After-Free Vulnerability",
+      "added": "2026-11-10",
+      "due": "2026-11-24",
+      "ransomware": "Unknown",
+      "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multipl…"
+    },
+    {
+      "cve": "CVE-2026-124194",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "added": "2026-11-10",
+      "due": "2026-11-24",
+      "ransomware": "Unknown",
+      "summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network."
+    },
+    {
+      "cve": "CVE-2026-116606",
+      "vendor": "Barracuda Networks",
+      "product": "Barracuda Email Security Gateway (ESG)",
+      "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "added": "2026-11-10",
+      "due": "2026-11-13",
+      "ransomware": "Unknown",
+      "summary": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a craf…"
+    },
+    {
+      "cve": "CVE-2026-111793",
+      "vendor": "Openwave Messaging Limited",
+      "product": "Webtop Media Transcoder",
+      "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "added": "2026-11-10",
+      "due": "2026-11-24",
+      "ransomware": "Unknown",
+      "summary": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webma…"
+    },
+    {
+      "cve": "CVE-2026-111560",
+      "vendor": "Barracuda Networks",
+      "product": "Multiple Products",
+      "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "added": "2026-11-10",
+      "due": "2026-11-13",
+      "ransomware": "Unknown",
+      "summary": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS…"
+    }
+  ],
+  "critical_cves": [
+    {
+      "cve": "CVE-2026-127275",
+      "published": "2026-11-13",
+      "score": 10.0,
+      "summary": "A vulnerability was determined in Linksys EA8100 1.0.3.216940. This issue affects the function SetRemoteSetting/SetUnsecuredWiFiWarning of the file ui_server.lua of the component JNAP API. This manipulation of the argument isEnab…"
+    },
+    {
+      "cve": "CVE-2026-127277",
+      "published": "2026-11-13",
+      "score": 10.0,
+      "summary": "A security flaw has been discovered in Linksys EA8100 1.0.3.216940. The affected element is an unknown function of the file etc/init.d/service_smbd.sh of the component SMB Service. Performing a manipulation of the argument ANON_A…"
+    },
+    {
+      "cve": "CVE-2026-125086",
+      "published": "2026-11-10",
+      "score": 10.0,
+      "summary": "A vulnerability has been found in D-Link M60 1.12.B01. Impacted is the function system of the file /etc/emDaemon/mosquitto.conf of the component emDaemon MQTT Broker. Such manipulation leads to hard-coded credentials. The attack…"
+    },
+    {
+      "cve": "CVE-2026-120002",
+      "published": "2026-11-10",
+      "score": 9.9,
+      "summary": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network."
+    },
+    {
+      "cve": "CVE-2026-17410",
+      "published": "2026-11-07",
+      "score": 9.9,
+      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters."
+    }
+  ],
   "sources": {
     "kev": "CISA Known Exploited Vulnerabilities Catalog",
     "nvd": "NIST National Vulnerability Database"
