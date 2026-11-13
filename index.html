@@ -6,12 +6,13 @@
 <title>Learn Cyber Daily | Learn. Explore. Secure.</title>
 <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="daily-updates.css">
 </head>
 <body>
 <header class="topbar">
  <a class="brand" href="#home" aria-label="Learn Cyber Daily home"><img src="assets/logo.svg" alt=""><span>LEARN <b>CYBER DAILY</b></span></a>
  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
- <nav id="nav"><a href="#home">Home</a><a href="#articles">Blog</a><a href="#topics">Topics</a><a href="#about">About</a><a class="nav-cta" href="https://instagram.com/learncyberdaily30" target="_blank" rel="noopener">Instagram ↗</a></nav>
+ <nav id="nav"><a href="#home">Home</a><a href="#articles">Blog</a><a href="#topics">Topics</a><a href="#daily">Daily</a><a href="#about">About</a><a class="nav-cta" href="https://instagram.com/learncyberdaily30" target="_blank" rel="noopener">Instagram ↗</a></nav>
 </header>
 <main>
 <section class="hero" id="home">
@@ -38,9 +39,12 @@
 <article class="article-card" data-category="Tools"><div class="article-visual visual-wireshark">⌁<span>03 / NETWORK</span></div><div class="article-body"><span class="tag">TOOLS</span><h3>Wireshark for Beginners</h3><p>Learn packet capture basics and how to read network traffic.</p><div class="article-meta">7 min read <a href="articles/wireshark-basics.html">Read article ↗</a></div></div></article>
 <article class="article-card" data-category="AI"><div class="article-visual visual-ai">✦<span>04 / FUTURE</span></div><div class="article-body"><span class="tag">AI + CYBER</span><h3>Using AI to Learn Cybersecurity</h3><p>Prompts, verification, and safe AI-assisted practice.</p><div class="article-meta">4 min read <a href="articles/ai-cyber-learning.html">Read article ↗</a></div></div></article>
 </div><p class="empty-state" id="emptyState" hidden>No articles in this category yet.</p></section>
+<section class="section daily-section" id="daily"><div class="section-heading"><div><span class="eyebrow">LIVE THREAT FEED</span><h2>Daily cyber <em>updates</em></h2></div><p>Fresh vulnerabilities and tips, refreshed automatically every day.</p></div>
+<div id="dailyUpdates"><p class="daily-empty">Loading today's updates…</p></div></section>
 <section class="cta-section" id="about"><div class="cta-mark">🛡</div><div><span class="eyebrow">ABOUT THE PROJECT</span><h2>Think cyber.<br><em>Stay secure.</em></h2><p>Learn Cyber Daily is a learning project sharing approachable cybersecurity education. Practice only on systems you own or have explicit permission to test.</p></div><a class="button" href="https://instagram.com/learncyberdaily30" target="_blank" rel="noopener">Follow on Instagram ↗</a></section>
 <section class="newsletter"><span class="eyebrow">STAY IN THE LOOP</span><h2>Keep learning.</h2><p>Get a reminder to explore a new topic—no email collection on this demo site.</p><button class="button" id="dailyTip">Show me a cyber tip ✦</button><p class="tip" id="tip" aria-live="polite"></p></section>
 </main>
 <footer><a class="brand small" href="#home"><img src="assets/logo.svg" alt=""><span>LEARN <b>CYBER DAILY</b></span></a><p>© <span id="year"></span> Learn Cyber Daily. Learn responsibly.</p><a href="#home">Back to top ↑</a></footer>
 <script src="script.js"></script>
+<script src="daily-updates.js" defer></script>
 </body></html>
