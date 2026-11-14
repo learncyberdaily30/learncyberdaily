@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-13",
-  "tip": "Read the CVSS vector, not just the score. It explains how an attack works.",
+  "updated": "2026-11-14",
+  "tip": "Keep an asset inventory. You can't protect what you don't know you have.",
   "kev": [
+    {
+      "cve": "CVE-2026-123039",
+      "vendor": "Check Point",
+      "product": "Multiple Products",
+      "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "added": "2026-11-13",
+      "due": "2026-11-16",
+      "ransomware": "Unknown",
+      "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS…"
+    },
+    {
+      "cve": "CVE-2026-114713",
+      "vendor": "UnrealIRCd",
+      "product": "UnrealIRCd",
+      "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "added": "2026-11-13",
+      "due": "2026-11-16",
+      "ransomware": "Unknown",
+      "summary": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority."
+    },
     {
       "cve": "CVE-2026-20320",
       "vendor": "Cisco",
@@ -41,46 +61,14 @@
       "due": "2026-11-13",
       "ransomware": "Unknown",
       "summary": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a craf…"
-    },
-    {
-      "cve": "CVE-2026-111793",
-      "vendor": "Openwave Messaging Limited",
-      "product": "Webtop Media Transcoder",
-      "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
-      "added": "2026-11-10",
-      "due": "2026-11-24",
-      "ransomware": "Unknown",
-      "summary": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webma…"
-    },
-    {
-      "cve": "CVE-2026-111560",
-      "vendor": "Barracuda Networks",
-      "product": "Multiple Products",
-      "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-      "added": "2026-11-10",
-      "due": "2026-11-13",
-      "ransomware": "Unknown",
-      "summary": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS…"
     }
   ],
   "critical_cves": [
-    {
-      "cve": "CVE-2026-127275",
-      "published": "2026-11-13",
-      "score": 10.0,
-      "summary": "A vulnerability was determined in Linksys EA8100 1.0.3.216940. This issue affects the function SetRemoteSetting/SetUnsecuredWiFiWarning of the file ui_server.lua of the component JNAP API. This manipulation of the argument isEnab…"
-    },
     {
       "cve": "CVE-2026-127277",
       "published": "2026-11-13",
       "score": 10.0,
       "summary": "A security flaw has been discovered in Linksys EA8100 1.0.3.216940. The affected element is an unknown function of the file etc/init.d/service_smbd.sh of the component SMB Service. Performing a manipulation of the argument ANON_A…"
-    },
-    {
-      "cve": "CVE-2026-125086",
-      "published": "2026-11-10",
-      "score": 10.0,
-      "summary": "A vulnerability has been found in D-Link M60 1.12.B01. Impacted is the function system of the file /etc/emDaemon/mosquitto.conf of the component emDaemon MQTT Broker. Such manipulation leads to hard-coded credentials. The attack…"
     },
     {
       "cve": "CVE-2026-120002",
@@ -89,10 +77,22 @@
       "summary": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network."
     },
     {
-      "cve": "CVE-2026-17410",
-      "published": "2026-11-07",
-      "score": 9.9,
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters."
+      "cve": "CVE-2026-128027",
+      "published": "2026-11-13",
+      "score": 9.8,
+      "summary": "FrankenPHP Docker images before 1.1.11 were rebuilt only when new base image tags were created, so security fixes that Alpine, PHP, and Go applied under existing tags were not propagated. Remote attackers could exploit known flaw…"
+    },
+    {
+      "cve": "CVE-2026-109445",
+      "published": "2026-11-13",
+      "score": 9.8,
+      "summary": "PLANET GS-5220-8P2T2S (hardware version 3.0) firmware versions before 3.2412b261008 contains a stack-based buffer overflow vulnerability that allows unauthenticated attackers to corrupt stack memory by submitting an oversized web…"
+    },
+    {
+      "cve": "CVE-2026-129110",
+      "published": "2026-11-13",
+      "score": 9.8,
+      "summary": "sysPass 3.0.1 through 3.2.11 contains an authentication bypass vulnerability that allows unauthenticated attackers to reinstall an already-installed instance by POSTing to the install/install handler, which never checks isInstall…"
     }
   ],
   "sources": {
