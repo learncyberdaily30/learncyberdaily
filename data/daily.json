@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-14",
-  "tip": "Keep an asset inventory. You can't protect what you don't know you have.",
+  "updated": "2026-11-15",
+  "tip": "Document every incident step. Good notes make post-incident reviews valuable.",
   "kev": [
     {
       "cve": "CVE-2026-123039",
@@ -65,34 +65,34 @@
   ],
   "critical_cves": [
     {
+      "cve": "CVE-2026-129353",
+      "published": "2026-11-15",
+      "score": 10.0,
+      "summary": "A vulnerability was detected in D-Link DIR-600L 2.17/2.17b02. Affected by this vulnerability is the function authenticationcgi_main of the file authentication.cgi. Performing a manipulation of the argument id/password results in…"
+    },
+    {
+      "cve": "CVE-2026-129354",
+      "published": "2026-11-15",
+      "score": 10.0,
+      "summary": "A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function hnap_main of the file htdocs/cgibin of the component HNAP Handler. Executing a manipulation can lead to stack-based buffer overflow. The att…"
+    },
+    {
+      "cve": "CVE-2026-129351",
+      "published": "2026-11-14",
+      "score": 10.0,
+      "summary": "A security vulnerability has been detected in TRENDnet TEW-657BRM 1.00.1. This vulnerability affects the function sprintf of the file /setup.cgi of the component mini_httpd. Such manipulation leads to out-of-bounds write. The att…"
+    },
+    {
       "cve": "CVE-2026-127277",
       "published": "2026-11-13",
       "score": 10.0,
       "summary": "A security flaw has been discovered in Linksys EA8100 1.0.3.216940. The affected element is an unknown function of the file etc/init.d/service_smbd.sh of the component SMB Service. Performing a manipulation of the argument ANON_A…"
     },
     {
-      "cve": "CVE-2026-120002",
-      "published": "2026-11-10",
+      "cve": "CVE-2026-129250",
+      "published": "2026-11-14",
       "score": 9.9,
-      "summary": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network."
-    },
-    {
-      "cve": "CVE-2026-128027",
-      "published": "2026-11-13",
-      "score": 9.8,
-      "summary": "FrankenPHP Docker images before 1.1.11 were rebuilt only when new base image tags were created, so security fixes that Alpine, PHP, and Go applied under existing tags were not propagated. Remote attackers could exploit known flaw…"
-    },
-    {
-      "cve": "CVE-2026-109445",
-      "published": "2026-11-13",
-      "score": 9.8,
-      "summary": "PLANET GS-5220-8P2T2S (hardware version 3.0) firmware versions before 3.2412b261008 contains a stack-based buffer overflow vulnerability that allows unauthenticated attackers to corrupt stack memory by submitting an oversized web…"
-    },
-    {
-      "cve": "CVE-2026-129110",
-      "published": "2026-11-13",
-      "score": 9.8,
-      "summary": "sysPass 3.0.1 through 3.2.11 contains an authentication bypass vulnerability that allows unauthenticated attackers to reinstall an already-installed instance by POSTing to the install/install handler, which never checks isInstall…"
+      "summary": "A security vulnerability has been detected in Edimax BR6478ACV2 1.23. The impacted element is the function formPPTPSetup of the file webs. The manipulation of the argument pptpUserName leads to buffer overflow. It is possible to…"
     }
   ],
   "sources": {
