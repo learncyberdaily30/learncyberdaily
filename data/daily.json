@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-16",
-  "tip": "Use HTTPS everywhere and check certificate warnings instead of clicking through.",
+  "updated": "2026-11-17",
+  "tip": "Rotate and revoke leaked secrets immediately; deleting the commit isn't enough.",
   "kev": [
     {
       "cve": "CVE-2026-123039",
@@ -65,22 +65,10 @@
   ],
   "critical_cves": [
     {
-      "cve": "CVE-2026-129353",
-      "published": "2026-11-15",
-      "score": 10.0,
-      "summary": "A vulnerability was detected in D-Link DIR-600L 2.17/2.17b02. Affected by this vulnerability is the function authenticationcgi_main of the file authentication.cgi. Performing a manipulation of the argument id/password results in…"
-    },
-    {
       "cve": "CVE-2026-129354",
       "published": "2026-11-15",
       "score": 10.0,
       "summary": "A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function hnap_main of the file htdocs/cgibin of the component HNAP Handler. Executing a manipulation can lead to stack-based buffer overflow. The att…"
-    },
-    {
-      "cve": "CVE-2026-129444",
-      "published": "2026-11-15",
-      "score": 10.0,
-      "summary": "A vulnerability was identified in D-Link DSL-6740C 20131126. This affects an unknown function of the file /etc/templates/ftpd/ftpd_conf.php of the component FTP Daemon. Such manipulation leads to hard-coded credentials. The attac…"
     },
     {
       "cve": "CVE-2026-129351",
@@ -93,6 +81,18 @@
       "published": "2026-11-13",
       "score": 10.0,
       "summary": "A security flaw has been discovered in Linksys EA8100 1.0.3.216940. The affected element is an unknown function of the file etc/init.d/service_smbd.sh of the component SMB Service. Performing a manipulation of the argument ANON_A…"
+    },
+    {
+      "cve": "CVE-2026-129451",
+      "published": "2026-11-15",
+      "score": 9.9,
+      "summary": "A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function app_guest_export of the file /cgi-bin/mainfunction.cgi. This manipulation of the argument filename causes path traversal. The attack can be initi…"
+    },
+    {
+      "cve": "CVE-2026-120002",
+      "published": "2026-11-10",
+      "score": 9.9,
+      "summary": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network."
     }
   ],
   "sources": {
