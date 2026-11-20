@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19",
-  "tip": "Email headers (SPF, DKIM, DMARC) help you spot spoofed senders.",
+  "updated": "2026-11-20",
+  "tip": "Learn Linux command line basics. Most security tooling lives there.",
   "kev": [
     {
       "cve": "CVE-2026-90817",
@@ -71,28 +71,28 @@
       "summary": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can app…"
     },
     {
-      "cve": "CVE-2026-91510",
-      "published": "2026-11-17",
-      "score": 10.0,
-      "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows unauth…"
-    },
-    {
-      "cve": "CVE-2026-130759",
+      "cve": "CVE-2026-130786",
       "published": "2026-11-18",
       "score": 9.9,
-      "summary": "Fleet from 4.71.0 before 4.88.2 contains an authentication bypass vulnerability in the SAML SSO callback that looks up sessions using unvalidated client-supplied identifiers. Users able to run live queries or enroll secret holder…"
+      "summary": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint a…"
     },
     {
-      "cve": "CVE-2026-130771",
-      "published": "2026-11-18",
-      "score": 9.9,
-      "summary": "Incus before 7.6.0 fails to reject special files, hard links, or symlinks in backup or image metadata, allowing restricted project users to read or overwrite host files. Attackers can import crafted backups containing device node…"
+      "cve": "CVE-2026-14492",
+      "published": "2026-11-19",
+      "score": 9.8,
+      "summary": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling au…"
     },
     {
-      "cve": "CVE-2026-130780",
+      "cve": "CVE-2026-84236",
+      "published": "2026-11-19",
+      "score": 9.8,
+      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to insecure deserialization in the SharePoint Tap MulticastTransceiver component. An unauthenticated remote attacker could exploit this vulnerability to execute arbitrary code on th…"
+    },
+    {
+      "cve": "CVE-2026-130675",
       "published": "2026-11-18",
-      "score": 9.9,
-      "summary": "Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration peers to write outside intended directories by supplying unvalidated dependent volume and snapshot names in the migration offer header. At…"
+      "score": 9.8,
+      "summary": "Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in ImageTransforms::normalizeTransform() that allows attackers to instantiate arbitrary classes by supplying class:null with a __class key. Attacke…"
     }
   ],
   "sources": {
