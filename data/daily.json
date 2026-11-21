@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-20",
-  "tip": "Learn Linux command line basics. Most security tooling lives there.",
+  "updated": "2026-11-21",
+  "tip": "Threat intel is only useful if it is acted on: block, detect, or hunt.",
   "kev": [
+    {
+      "cve": "CVE-2026-76466",
+      "vendor": "Cisco",
+      "product": "Expressway Series",
+      "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "added": "2026-11-20",
+      "due": "2026-11-23",
+      "ransomware": "Unknown",
+      "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the d…"
+    },
+    {
+      "cve": "CVE-2026-129448",
+      "vendor": "Apache",
+      "product": "Roller",
+      "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+      "added": "2026-11-20",
+      "due": "2026-11-23",
+      "ransomware": "Unknown",
+      "summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types bef…"
+    },
+    {
+      "cve": "CVE-2026-123890",
+      "vendor": "Broadcom",
+      "product": "VMware vCenter",
+      "name": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "added": "2026-11-20",
+      "due": "2026-11-23",
+      "ransomware": "Unknown",
+      "summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentic…"
+    },
+    {
+      "cve": "CVE-2025-42884",
+      "vendor": "SAP",
+      "product": "NetWeaver",
+      "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "added": "2026-11-20",
+      "due": "2026-11-23",
+      "ransomware": "Unknown",
+      "summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environm…"
+    },
     {
       "cve": "CVE-2026-90817",
       "vendor": "Vanderbilt University",
@@ -21,46 +61,6 @@
       "due": "2026-11-21",
       "ransomware": "Unknown",
       "summary": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified…"
-    },
-    {
-      "cve": "CVE-2026-40217",
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-      "added": "2026-11-18",
-      "due": "2026-12-02",
-      "ransomware": "Unknown",
-      "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI."
-    },
-    {
-      "cve": "CVE-2024-10441",
-      "vendor": "Synology",
-      "product": "DiskStation Manager (DSM)",
-      "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-      "added": "2026-11-18",
-      "due": "2026-11-21",
-      "ransomware": "Unknown",
-      "summary": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors."
-    },
-    {
-      "cve": "CVE-2026-115731",
-      "vendor": "Perforce",
-      "product": "Puppet Enterprise",
-      "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
-      "added": "2026-11-17",
-      "due": "2026-12-01",
-      "ransomware": "Unknown",
-      "summary": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as…"
-    },
-    {
-      "cve": "CVE-2026-123039",
-      "vendor": "Check Point",
-      "product": "Multiple Products",
-      "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-      "added": "2026-11-13",
-      "due": "2026-11-16",
-      "ransomware": "Unknown",
-      "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS…"
     }
   ],
   "critical_cves": [
@@ -71,28 +71,28 @@
       "summary": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can app…"
     },
     {
+      "cve": "CVE-2026-133680",
+      "published": "2026-11-20",
+      "score": 9.9,
+      "summary": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument accoun…"
+    },
+    {
       "cve": "CVE-2026-130786",
       "published": "2026-11-18",
       "score": 9.9,
       "summary": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint a…"
     },
     {
-      "cve": "CVE-2026-14492",
-      "published": "2026-11-19",
-      "score": 9.8,
-      "summary": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling au…"
-    },
-    {
-      "cve": "CVE-2026-84236",
-      "published": "2026-11-19",
-      "score": 9.8,
-      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to insecure deserialization in the SharePoint Tap MulticastTransceiver component. An unauthenticated remote attacker could exploit this vulnerability to execute arbitrary code on th…"
-    },
-    {
       "cve": "CVE-2026-130675",
       "published": "2026-11-18",
       "score": 9.8,
       "summary": "Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in ImageTransforms::normalizeTransform() that allows attackers to instantiate arbitrary classes by supplying class:null with a __class key. Attacke…"
+    },
+    {
+      "cve": "CVE-2026-130733",
+      "published": "2026-11-18",
+      "score": 9.8,
+      "summary": "Grav from 2.0.0 before 2.2.18 contains an authorization bypass vulnerability that allows publishers to overwrite pages their per-page permissions deny by abusing FolderStorage key delimiter collisions and PageStorage folder recon…"
     }
   ],
   "sources": {
