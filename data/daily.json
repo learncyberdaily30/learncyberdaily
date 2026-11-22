@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21",
-  "tip": "Threat intel is only useful if it is acted on: block, detect, or hunt.",
+  "updated": "2026-11-22",
+  "tip": "Encrypt laptops and phones so a lost device is not a data breach.",
   "kev": [
     {
       "cve": "CVE-2026-76466",
@@ -65,6 +65,12 @@
   ],
   "critical_cves": [
     {
+      "cve": "CVE-2026-133993",
+      "published": "2026-11-21",
+      "score": 10.0,
+      "summary": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in…"
+    },
+    {
       "cve": "CVE-2026-130778",
       "published": "2026-11-18",
       "score": 10.0,
@@ -83,16 +89,10 @@
       "summary": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint a…"
     },
     {
-      "cve": "CVE-2026-130675",
-      "published": "2026-11-18",
+      "cve": "CVE-2026-120539",
+      "published": "2026-11-21",
       "score": 9.8,
-      "summary": "Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in ImageTransforms::normalizeTransform() that allows attackers to instantiate arbitrary classes by supplying class:null with a __class key. Attacke…"
-    },
-    {
-      "cve": "CVE-2026-130733",
-      "published": "2026-11-18",
-      "score": 9.8,
-      "summary": "Grav from 2.0.0 before 2.2.18 contains an authorization bypass vulnerability that allows publishers to overwrite pages their per-page permissions deny by abusing FolderStorage key delimiter collisions and PageStorage folder recon…"
+      "summary": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression…"
     }
   ],
   "sources": {
