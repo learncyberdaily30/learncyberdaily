@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22",
-  "tip": "Encrypt laptops and phones so a lost device is not a data breach.",
+  "updated": "2026-11-23",
+  "tip": "Review third-party app permissions regularly and remove what you don't use.",
   "kev": [
     {
       "cve": "CVE-2026-76466",
