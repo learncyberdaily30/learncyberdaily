@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-23",
-  "tip": "Review third-party app permissions regularly and remove what you don't use.",
+  "updated": "2026-11-24",
+  "tip": "Know your baseline. Anomaly detection starts with knowing what normal looks like.",
   "kev": [
+    {
+      "cve": "CVE-2026-134624",
+      "vendor": "N-able",
+      "product": "MailAssure",
+      "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "added": "2026-11-23",
+      "due": "2026-11-26",
+      "ransomware": "Unknown",
+      "summary": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine w…"
+    },
+    {
+      "cve": "CVE-2026-133968",
+      "vendor": "Project MONAI",
+      "product": "MONAI Label",
+      "name": "Project MONAI MONAI Label Path Traversal Vulnerability",
+      "added": "2026-11-23",
+      "due": "2026-11-26",
+      "ransomware": "Unknown",
+      "summary": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution."
+    },
     {
       "cve": "CVE-2026-76466",
       "vendor": "Cisco",
@@ -41,29 +61,21 @@
       "due": "2026-11-23",
       "ransomware": "Unknown",
       "summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environm…"
-    },
-    {
-      "cve": "CVE-2026-90817",
-      "vendor": "Vanderbilt University",
-      "product": "Research Electronic Data Capture (REDCap)",
-      "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-      "added": "2026-11-18",
-      "due": "2026-11-21",
-      "ransomware": "Unknown",
-      "summary": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via cra…"
-    },
-    {
-      "cve": "CVE-2026-90436",
-      "vendor": "Apache",
-      "product": "Axis",
-      "name": "Apache Axis Unsafe Reflection Vulnerability",
-      "added": "2026-11-18",
-      "due": "2026-11-21",
-      "ransomware": "Unknown",
-      "summary": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified…"
     }
   ],
   "critical_cves": [
+    {
+      "cve": "CVE-2026-134882",
+      "published": "2026-11-23",
+      "score": 10.0,
+      "summary": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes…"
+    },
+    {
+      "cve": "CVE-2026-62841",
+      "published": "2026-11-23",
+      "score": 10.0,
+      "summary": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network."
+    },
     {
       "cve": "CVE-2026-133993",
       "published": "2026-11-21",
@@ -71,28 +83,16 @@
       "summary": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in…"
     },
     {
-      "cve": "CVE-2026-130778",
-      "published": "2026-11-18",
-      "score": 10.0,
-      "summary": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can app…"
-    },
-    {
-      "cve": "CVE-2026-133680",
-      "published": "2026-11-20",
+      "cve": "CVE-2026-50691",
+      "published": "2026-11-23",
       "score": 9.9,
-      "summary": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument accoun…"
+      "summary": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network."
     },
     {
-      "cve": "CVE-2026-130786",
-      "published": "2026-11-18",
+      "cve": "CVE-2026-70193",
+      "published": "2026-11-23",
       "score": 9.9,
-      "summary": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint a…"
-    },
-    {
-      "cve": "CVE-2026-120539",
-      "published": "2026-11-21",
-      "score": 9.8,
-      "summary": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression…"
+      "summary": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network."
     }
   ],
   "sources": {
