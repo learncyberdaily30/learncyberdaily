@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-24",
-  "tip": "Know your baseline. Anomaly detection starts with knowing what normal looks like.",
+  "updated": "2026-11-25",
+  "tip": "Stay curious and learn a little every day. Consistency beats cramming.",
   "kev": [
+    {
+      "cve": "CVE-2026-132224",
+      "vendor": "Optimizely",
+      "product": "Web Experimentation",
+      "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "added": "2026-11-24",
+      "due": "2026-11-27",
+      "ransomware": "Unknown",
+      "summary": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Succes…"
+    },
+    {
+      "cve": "CVE-2026-132165",
+      "vendor": "Drupal",
+      "product": "Core",
+      "name": "Drupal Core Remote Code Execution Vulnerability",
+      "added": "2026-11-24",
+      "due": "2026-11-27",
+      "ransomware": "Unknown",
+      "summary": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can…"
+    },
+    {
+      "cve": "CVE-2026-131914",
+      "vendor": "Idunno",
+      "product": "AntiCsrf",
+      "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "added": "2026-11-24",
+      "due": "2026-11-27",
+      "ransomware": "Unknown",
+      "summary": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or e…"
+    },
     {
       "cve": "CVE-2026-134624",
       "vendor": "N-able",
@@ -31,39 +61,27 @@
       "due": "2026-11-23",
       "ransomware": "Unknown",
       "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the d…"
-    },
-    {
-      "cve": "CVE-2026-129448",
-      "vendor": "Apache",
-      "product": "Roller",
-      "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
-      "added": "2026-11-20",
-      "due": "2026-11-23",
-      "ransomware": "Unknown",
-      "summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types bef…"
-    },
-    {
-      "cve": "CVE-2026-123890",
-      "vendor": "Broadcom",
-      "product": "VMware vCenter",
-      "name": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "added": "2026-11-20",
-      "due": "2026-11-23",
-      "ransomware": "Unknown",
-      "summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentic…"
-    },
-    {
-      "cve": "CVE-2025-42884",
-      "vendor": "SAP",
-      "product": "NetWeaver",
-      "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
-      "added": "2026-11-20",
-      "due": "2026-11-23",
-      "ransomware": "Unknown",
-      "summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environm…"
     }
   ],
   "critical_cves": [
+    {
+      "cve": "CVE-2026-136136",
+      "published": "2026-11-25",
+      "score": 10.0,
+      "summary": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/n…"
+    },
+    {
+      "cve": "CVE-2026-135792",
+      "published": "2026-11-24",
+      "score": 10.0,
+      "summary": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Us…"
+    },
+    {
+      "cve": "CVE-2026-135797",
+      "published": "2026-11-24",
+      "score": 10.0,
+      "summary": "A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os com…"
+    },
     {
       "cve": "CVE-2026-134882",
       "published": "2026-11-23",
@@ -71,28 +89,10 @@
       "summary": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes…"
     },
     {
-      "cve": "CVE-2026-62841",
-      "published": "2026-11-23",
-      "score": 10.0,
-      "summary": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network."
-    },
-    {
       "cve": "CVE-2026-133993",
       "published": "2026-11-21",
       "score": 10.0,
       "summary": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in…"
-    },
-    {
-      "cve": "CVE-2026-50691",
-      "published": "2026-11-23",
-      "score": 9.9,
-      "summary": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network."
-    },
-    {
-      "cve": "CVE-2026-70193",
-      "published": "2026-11-23",
-      "score": 9.9,
-      "summary": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network."
     }
   ],
   "sources": {
