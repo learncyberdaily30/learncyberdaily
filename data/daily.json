@@ -1,66 +1,66 @@
 {
-  "updated": "2026-11-25",
-  "tip": "Stay curious and learn a little every day. Consistency beats cramming.",
+  "updated": "2026-11-26",
+  "tip": "Turn on multi-factor authentication everywhere. A stolen password alone should never be enough.",
   "kev": [
     {
-      "cve": "CVE-2026-132224",
-      "vendor": "Optimizely",
-      "product": "Web Experimentation",
-      "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
-      "added": "2026-11-24",
-      "due": "2026-11-27",
+      "cve": "CVE-2026-133469",
+      "vendor": "Vates",
+      "product": "Xen Orchestra",
+      "name": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+      "added": "2026-11-25",
+      "due": "2026-11-28",
       "ransomware": "Unknown",
-      "summary": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Succes…"
+      "summary": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially…"
     },
     {
-      "cve": "CVE-2026-132165",
-      "vendor": "Drupal",
-      "product": "Core",
-      "name": "Drupal Core Remote Code Execution Vulnerability",
-      "added": "2026-11-24",
-      "due": "2026-11-27",
+      "cve": "CVE-2026-133324",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "name": "Mitel MiCollab Not Failing Securely Vulnerability",
+      "added": "2026-11-25",
+      "due": "2026-11-28",
       "ransomware": "Unknown",
-      "summary": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can…"
+      "summary": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions."
     },
     {
-      "cve": "CVE-2026-131914",
-      "vendor": "Idunno",
-      "product": "AntiCsrf",
-      "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
-      "added": "2026-11-24",
-      "due": "2026-11-27",
+      "cve": "CVE-2026-133323",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "name": "Mitel MiCollab OS Command Injection Vulnerability",
+      "added": "2026-11-25",
+      "due": "2026-11-28",
       "ransomware": "Unknown",
-      "summary": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or e…"
+      "summary": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attac…"
     },
     {
-      "cve": "CVE-2026-134624",
-      "vendor": "N-able",
-      "product": "MailAssure",
-      "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
-      "added": "2026-11-23",
-      "due": "2026-11-26",
+      "cve": "CVE-2026-133311",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "name": "Mitel MiCollab Weak Authentication Vulnerability",
+      "added": "2026-11-25",
+      "due": "2026-12-09",
       "ransomware": "Unknown",
-      "summary": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine w…"
+      "summary": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated r…"
     },
     {
-      "cve": "CVE-2026-133968",
-      "vendor": "Project MONAI",
-      "product": "MONAI Label",
-      "name": "Project MONAI MONAI Label Path Traversal Vulnerability",
-      "added": "2026-11-23",
-      "due": "2026-11-26",
+      "cve": "CVE-2026-133303",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "name": "Mitel MiCollab XML Injection Vulnerability",
+      "added": "2026-11-25",
+      "due": "2026-11-28",
       "ransomware": "Unknown",
-      "summary": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution."
+      "summary": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content."
     },
     {
-      "cve": "CVE-2026-76466",
-      "vendor": "Cisco",
-      "product": "Expressway Series",
-      "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
-      "added": "2026-11-20",
-      "due": "2026-11-23",
+      "cve": "CVE-2026-133275",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "name": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "added": "2026-11-25",
+      "due": "2026-11-28",
       "ransomware": "Unknown",
-      "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the d…"
+      "summary": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attack…"
     }
   ],
   "critical_cves": [
@@ -71,28 +71,28 @@
       "summary": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/n…"
     },
     {
-      "cve": "CVE-2026-135792",
-      "published": "2026-11-24",
+      "cve": "CVE-2026-136548",
+      "published": "2026-11-25",
       "score": 10.0,
-      "summary": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Us…"
+      "summary": "A vulnerability was identified in Tenda RX3 16.03.13.11. The affected element is an unknown function of the file /bin/auto_discover of the component GBK-to-UTF-8 Conversion. The manipulation of the argument Hostname leads to stac…"
     },
     {
-      "cve": "CVE-2026-135797",
-      "published": "2026-11-24",
+      "cve": "CVE-2026-136549",
+      "published": "2026-11-25",
       "score": 10.0,
-      "summary": "A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os com…"
+      "summary": "A security flaw has been discovered in Tenda RX3 16.03.13.11_multi. The impacted element is the function formSetSafeWanWebMan of the file /goform/SetRemoteWebCfg. The manipulation of the argument remoteIp results in command injec…"
     },
     {
-      "cve": "CVE-2026-134882",
-      "published": "2026-11-23",
+      "cve": "CVE-2026-136553",
+      "published": "2026-11-25",
       "score": 10.0,
-      "summary": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes…"
+      "summary": "A vulnerability was detected in Tenda RX3 16.03.13.11_multi. Affected is an unknown function of the file /goform/fast_setting_wifi_set. Performing a manipulation of the argument loginPwd results in improper authentication. It is…"
     },
     {
-      "cve": "CVE-2026-133993",
-      "published": "2026-11-21",
+      "cve": "CVE-2026-136823",
+      "published": "2026-11-25",
       "score": 10.0,
-      "summary": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in…"
+      "summary": "A vulnerability was found in D-Link R32 1.10B02. This affects an unknown function of the file /usr/bin/httpd of the component flupl self Endpoint. Performing a manipulation of the argument fpath results in os command injection. T…"
     }
   ],
   "sources": {
