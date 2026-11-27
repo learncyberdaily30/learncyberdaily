@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26",
-  "tip": "Turn on multi-factor authentication everywhere. A stolen password alone should never be enough.",
+  "updated": "2026-11-27",
+  "tip": "Use a password manager and give every account a unique, long passphrase.",
   "kev": [
     {
       "cve": "CVE-2026-133469",
@@ -65,6 +65,18 @@
   ],
   "critical_cves": [
     {
+      "cve": "CVE-2026-137043",
+      "published": "2026-11-26",
+      "score": 10.0,
+      "summary": "A security vulnerability has been detected in TOTOLINK N350RT 9.3.5u.6468_B20250827/9.3.5u.6466_B20250825. The affected element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Such manipulation of the argument la…"
+    },
+    {
+      "cve": "CVE-2026-137498",
+      "published": "2026-11-26",
+      "score": 10.0,
+      "summary": "Budibase Server from 3.39.18 before 4.0.0 contains a prototype pollution vulnerability that allows unauthenticated attackers to erase MongoDB query filters by supplying __proto__ as a dynamic JSON key in PUBLIC queries. Attackers…"
+    },
+    {
       "cve": "CVE-2026-136136",
       "published": "2026-11-25",
       "score": 10.0,
@@ -81,18 +93,6 @@
       "published": "2026-11-25",
       "score": 10.0,
       "summary": "A security flaw has been discovered in Tenda RX3 16.03.13.11_multi. The impacted element is the function formSetSafeWanWebMan of the file /goform/SetRemoteWebCfg. The manipulation of the argument remoteIp results in command injec…"
-    },
-    {
-      "cve": "CVE-2026-136553",
-      "published": "2026-11-25",
-      "score": 10.0,
-      "summary": "A vulnerability was detected in Tenda RX3 16.03.13.11_multi. Affected is an unknown function of the file /goform/fast_setting_wifi_set. Performing a manipulation of the argument loginPwd results in improper authentication. It is…"
-    },
-    {
-      "cve": "CVE-2026-136823",
-      "published": "2026-11-25",
-      "score": 10.0,
-      "summary": "A vulnerability was found in D-Link R32 1.10B02. This affects an unknown function of the file /usr/bin/httpd of the component flupl self Endpoint. Performing a manipulation of the argument fpath results in os command injection. T…"
     }
   ],
   "sources": {
